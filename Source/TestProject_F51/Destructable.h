@@ -31,9 +31,6 @@ protected:
     UPROPERTY(VisibleAnywhere)
     UStaticMeshComponent* m_StaticMeshComponent = nullptr;
 
-    //UPROPERTY(VisibleAnywhere)
-    //UBoxComponent* m_BoxCollision = nullptr;
-
     UPROPERTY(VisibleAnywhere)
     UParticleSystemComponent* m_ExplosionParticle = nullptr;
 
